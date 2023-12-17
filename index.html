@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quotes App</title>
+    <link rel="stylesheet" href="./Style/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Style/style.css" />
+  </head>
+  <body id="_body">
+    <section class="pt-5 bg-transparent">
+      <div class="container text-center">
+        <h1 class="main-head-fs fw-bold text-capitalize mb-5">
+          quote of the day
+        </h1>
+        <p class="content-fs text-capitalize mb-35">
+          press the button below to recieve a random quote!
+        </p>
+        <button
+          onclick="changeContent()"
+          id="quote-btn"
+          class="btn btn-primary btn-bg-active text-capitalize py-3 px-5 mb-35"
+        >
+          new quote
+        </button>
+        <p id="quoteContent" class="content-fs"></p>
+        <p id="authorContent" class="content-fs"></p>
+      </div>
+    </section>
+    <script src="./Js/main.js"></script>
+  </body>
+</html>

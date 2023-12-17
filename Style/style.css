@@ -1,0 +1,34 @@
+:root { 
+    --main-head-fs : 5rem;
+    --content-fs : 2.1875rem;
+    --btn-bg : blue;
+    --btn-hover-bg : green;
+}
+
+.main-head-fs {
+    font-size: var(--main-head-fs);
+}
+
+.content-fs {
+    font-size: var(--content-fs);
+}
+
+.mb-35 {
+    margin-bottom: 2.1875rem;
+}
+
+
+.btn {
+    transition: all 0s;
+    background-color: var(--btn-bg);
+}
+
+
+.btn:hover {
+    background-color: var(--btn-hover-bg);
+    border-color: var(--btn-hover-bg);
+}
+
+section .btn-primary:active {
+    background-color: var(--btn-hover-bg);
+}
